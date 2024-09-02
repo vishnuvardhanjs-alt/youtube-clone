@@ -1,0 +1,23 @@
+.sidebar {
+  padding: 10px;
+  width: 240px;
+  background-color: #f1f1f1;
+}
+
+.sidebar__option {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  cursor: pointer;
+  background-color: rgb(145, 141, 155);
+  margin-top: 10px;
+  width: 100pxf;
+}
+.sidebar__option:hover{
+  background-color: rgb(92, 86, 86);
+}
+
+.sidebar__icon {
+  font-size: 1.5rem;
+  margin-right: 15px;
+}

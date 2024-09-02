@@ -1,0 +1,36 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #FF0000;
+    color: white;
+  }
+  
+  .header__logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header__logoIcon {
+    font-size: 2rem;
+    margin-right: 10px;
+  }
+  
+  .header__search {
+    display: flex;
+    flex: 1;
+    max-width: 600px;
+    margin: 0 20px;
+  }
+  
+  .header__searchIcon {
+    padding: 10px;
+    background-color: #ddd;
+  }
+  
+  .header__icons .header__icon {
+    margin-left: 20px;
+    font-size: 1.5rem;
+  }
+  
